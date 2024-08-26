@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>project</title>
+</head>
+<body style="background:url('/Background/bg7.jpeg') no-repeat;background-size: cover;">
+    <nav style="text-align: center; margin-bottom: 5px;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="acheivement.html">Certificates</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+           </ul>
+
+         <div class="menubar">
+            <div class="menuline"></div>
+            <div class="menuline"></div>
+            <div class="menuline"></div>
+         </div>
+ 
+     </nav> 
+     <script>
+        const menu = document.querySelector('.menubar')
+        const menuList=document.querySelector('nav ul')
+        menu.addEventListener('click',()=>{
+            menuList.classList.toggle('showmenu')
+        })
+         
+         </script> 
+         <style>
+            .Project{
+                text-align: center;
+                margin-top: 50px;
+                font-size: 20px;
+            }
+            .Project a{
+                color: blue;
+                text-decoration: none;
+            }
+         </style>  
+        
+    <hr style="margin-top: 15px;">
+<div class="run">
+    <h1>Projects</h1>
+    <hr>
+    <div class="Project">
+        <div class="box">
+            <a href="./projects/project1/event.html">
+                <img src="./projects/project1/Screenshot_21-8-2024_22910_127.0.0.1.jpeg" alt="" width="275px" height="275px">
+            <h3 style="font-size:20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Events</h3>
+            </a>
+        </div>
+    
+        <div class="box">
+            <a href="projects/project2/signup.html"><img src="projects/project2/Screenshot_25-8-2024_205838_127.0.0.1.jpeg" alt="" width="275px" height="275px">
+                <h3 style="font-size:20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Login Page</h3></a>
+        </div>
+    
+       
+    </div>
+    
+   
+</div>
+
+
+
+
+
+    
+</body>
+</html>
